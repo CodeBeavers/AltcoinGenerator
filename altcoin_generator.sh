@@ -48,7 +48,7 @@ COIN_NAME_LOWER=$(echo $COIN_NAME | tr '[:upper:]' '[:lower:]')
 COIN_NAME_UPPER=$(echo $COIN_NAME | tr '[:lower:]' '[:upper:]')
 DIRNAME=$(dirname $0)
 DOCKER_NETWORK="172.18.0"
-DOCKER_IMAGE_LABEL="newcoin-env"
+DOCKER_IMAGE_LABEL="fun4-env"
 OSVERSION="$(uname -s)"
 
 docker_build_image()

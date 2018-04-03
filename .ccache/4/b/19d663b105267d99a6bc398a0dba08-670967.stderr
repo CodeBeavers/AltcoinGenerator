@@ -1,0 +1,4 @@
+leveldb/db/memtable.cc: In member function 'void leveldb::MemTable::Add(leveldb::SequenceNumber, leveldb::ValueType, const leveldb::Slice&, const leveldb::Slice&)':
+leveldb/db/memtable.cc:104:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   assert((p + val_size) - buf == encoded_len);
+                       ^

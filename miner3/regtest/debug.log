@@ -1,0 +1,203 @@
+2018-04-03 12:50:09 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-04-03 12:50:09 Fun4 version v0.14.2.0-7299f6d-dirty
+2018-04-03 12:50:09 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2018-04-03 12:50:09 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-04-03 12:50:09 Validating signatures for all blocks.
+2018-04-03 12:50:09 Default data directory /root/.fun4
+2018-04-03 12:50:09 Using data directory /root/.fun4/regtest
+2018-04-03 12:50:09 Using config file /root/.fun4/fun4.conf
+2018-04-03 12:50:09 Using at most 125 automatic connections (1048576 file descriptors available)
+2018-04-03 12:50:09 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-04-03 12:50:09 Using 2 threads for script verification
+2018-04-03 12:50:09 libevent: getaddrinfo: address family for nodename not supported
+2018-04-03 12:50:09 Binding RPC on address ::1 port 19332 failed.
+2018-04-03 12:50:09 HTTP: creating work queue of depth 16
+2018-04-03 12:50:09 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-04-03 12:50:09 HTTP: starting 4 worker threads
+2018-04-03 12:50:09 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-04-03 12:50:09 Using wallet wallet.dat
+2018-04-03 12:50:09 init message: Verifying wallet...
+2018-04-03 12:50:09 CDBEnv::Open: LogDir=/root/.fun4/regtest/database ErrorFile=/root/.fun4/regtest/db.log
+2018-04-03 12:50:09 scheduler thread start
+2018-04-03 12:50:09 Bound to 172.18.0.3:19444
+2018-04-03 12:50:09 Cache configuration:
+2018-04-03 12:50:09 * Using 2.0MiB for block index database
+2018-04-03 12:50:09 * Using 8.0MiB for chain state database
+2018-04-03 12:50:09 * Using 440.0MiB for in-memory UTXO set (plus up to 4.8MiB of unused mempool space)
+2018-04-03 12:50:09 init message: Loading block index...
+2018-04-03 12:50:09 Opening LevelDB in /root/.fun4/regtest/blocks/index
+2018-04-03 12:50:09 Opened LevelDB successfully
+2018-04-03 12:50:09 Using obfuscation key for /root/.fun4/regtest/blocks/index: 0000000000000000
+2018-04-03 12:50:09 Opening LevelDB in /root/.fun4/regtest/chainstate
+2018-04-03 12:50:09 Opened LevelDB successfully
+2018-04-03 12:50:09 Wrote new obfuscate key for /root/.fun4/regtest/chainstate: aad8d1538cf21945
+2018-04-03 12:50:09 Using obfuscation key for /root/.fun4/regtest/chainstate: aad8d1538cf21945
+2018-04-03 12:50:09 LoadBlockIndexDB: last block file = 0
+2018-04-03 12:50:09 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-04-03 12:50:09 Checking all blk files are present...
+2018-04-03 12:50:09 LoadBlockIndexDB: transaction index disabled
+2018-04-03 12:50:09 Initializing databases...
+2018-04-03 12:50:09 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-04-03 12:50:09 init message: Verifying blocks...
+2018-04-03 12:50:09  block index             188ms
+2018-04-03 12:50:09 init message: Loading wallet...
+2018-04-03 12:50:10 nFileVersion = 140200
+2018-04-03 12:50:10 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-04-03 12:50:10 Performing wallet upgrade to 60000
+2018-04-03 12:50:10 keypool added key 1, size=1
+2018-04-03 12:50:10 keypool added key 2, size=2
+2018-04-03 12:50:10 keypool added key 3, size=3
+2018-04-03 12:50:10 keypool added key 4, size=4
+2018-04-03 12:50:10 keypool added key 5, size=5
+2018-04-03 12:50:10 keypool added key 6, size=6
+2018-04-03 12:50:10 keypool added key 7, size=7
+2018-04-03 12:50:10 keypool added key 8, size=8
+2018-04-03 12:50:10 keypool added key 9, size=9
+2018-04-03 12:50:10 keypool added key 10, size=10
+2018-04-03 12:50:10 keypool added key 11, size=11
+2018-04-03 12:50:10 keypool added key 12, size=12
+2018-04-03 12:50:10 keypool added key 13, size=13
+2018-04-03 12:50:10 keypool added key 14, size=14
+2018-04-03 12:50:10 keypool added key 15, size=15
+2018-04-03 12:50:10 keypool added key 16, size=16
+2018-04-03 12:50:10 keypool added key 17, size=17
+2018-04-03 12:50:10 keypool added key 18, size=18
+2018-04-03 12:50:11 keypool added key 19, size=19
+2018-04-03 12:50:11 keypool added key 20, size=20
+2018-04-03 12:50:11 keypool added key 21, size=21
+2018-04-03 12:50:11 keypool added key 22, size=22
+2018-04-03 12:50:11 keypool added key 23, size=23
+2018-04-03 12:50:11 keypool added key 24, size=24
+2018-04-03 12:50:11 keypool added key 25, size=25
+2018-04-03 12:50:11 keypool added key 26, size=26
+2018-04-03 12:50:11 keypool added key 27, size=27
+2018-04-03 12:50:11 keypool added key 28, size=28
+2018-04-03 12:50:11 keypool added key 29, size=29
+2018-04-03 12:50:11 keypool added key 30, size=30
+2018-04-03 12:50:11 keypool added key 31, size=31
+2018-04-03 12:50:11 keypool added key 32, size=32
+2018-04-03 12:50:12 keypool added key 33, size=33
+2018-04-03 12:50:12 keypool added key 34, size=34
+2018-04-03 12:50:12 keypool added key 35, size=35
+2018-04-03 12:50:12 keypool added key 36, size=36
+2018-04-03 12:50:12 keypool added key 37, size=37
+2018-04-03 12:50:12 keypool added key 38, size=38
+2018-04-03 12:50:12 keypool added key 39, size=39
+2018-04-03 12:50:12 keypool added key 40, size=40
+2018-04-03 12:50:12 keypool added key 41, size=41
+2018-04-03 12:50:12 keypool added key 42, size=42
+2018-04-03 12:50:13 keypool added key 43, size=43
+2018-04-03 12:50:13 keypool added key 44, size=44
+2018-04-03 12:50:13 keypool added key 45, size=45
+2018-04-03 12:50:13 keypool added key 46, size=46
+2018-04-03 12:50:13 keypool added key 47, size=47
+2018-04-03 12:50:13 keypool added key 48, size=48
+2018-04-03 12:50:13 keypool added key 49, size=49
+2018-04-03 12:50:13 keypool added key 50, size=50
+2018-04-03 12:50:13 keypool added key 51, size=51
+2018-04-03 12:50:13 keypool added key 52, size=52
+2018-04-03 12:50:13 keypool added key 53, size=53
+2018-04-03 12:50:13 keypool added key 54, size=54
+2018-04-03 12:50:13 keypool added key 55, size=55
+2018-04-03 12:50:13 keypool added key 56, size=56
+2018-04-03 12:50:13 keypool added key 57, size=57
+2018-04-03 12:50:13 keypool added key 58, size=58
+2018-04-03 12:50:13 keypool added key 59, size=59
+2018-04-03 12:50:13 keypool added key 60, size=60
+2018-04-03 12:50:13 keypool added key 61, size=61
+2018-04-03 12:50:13 keypool added key 62, size=62
+2018-04-03 12:50:13 keypool added key 63, size=63
+2018-04-03 12:50:14 keypool added key 64, size=64
+2018-04-03 12:50:14 keypool added key 65, size=65
+2018-04-03 12:50:14 keypool added key 66, size=66
+2018-04-03 12:50:14 keypool added key 67, size=67
+2018-04-03 12:50:14 keypool added key 68, size=68
+2018-04-03 12:50:14 keypool added key 69, size=69
+2018-04-03 12:50:14 keypool added key 70, size=70
+2018-04-03 12:50:14 keypool added key 71, size=71
+2018-04-03 12:50:14 keypool added key 72, size=72
+2018-04-03 12:50:14 keypool added key 73, size=73
+2018-04-03 12:50:14 keypool added key 74, size=74
+2018-04-03 12:50:14 keypool added key 75, size=75
+2018-04-03 12:50:14 keypool added key 76, size=76
+2018-04-03 12:50:15 keypool added key 77, size=77
+2018-04-03 12:50:15 keypool added key 78, size=78
+2018-04-03 12:50:15 keypool added key 79, size=79
+2018-04-03 12:50:15 keypool added key 80, size=80
+2018-04-03 12:50:15 keypool added key 81, size=81
+2018-04-03 12:50:15 keypool added key 82, size=82
+2018-04-03 12:50:15 keypool added key 83, size=83
+2018-04-03 12:50:16 keypool added key 84, size=84
+2018-04-03 12:50:16 keypool added key 85, size=85
+2018-04-03 12:50:16 keypool added key 86, size=86
+2018-04-03 12:50:16 keypool added key 87, size=87
+2018-04-03 12:50:16 keypool added key 88, size=88
+2018-04-03 12:50:16 keypool added key 89, size=89
+2018-04-03 12:50:16 keypool added key 90, size=90
+2018-04-03 12:50:16 keypool added key 91, size=91
+2018-04-03 12:50:16 keypool added key 92, size=92
+2018-04-03 12:50:16 keypool added key 93, size=93
+2018-04-03 12:50:16 keypool added key 94, size=94
+2018-04-03 12:50:16 keypool added key 95, size=95
+2018-04-03 12:50:16 keypool added key 96, size=96
+2018-04-03 12:50:16 keypool added key 97, size=97
+2018-04-03 12:50:16 keypool added key 98, size=98
+2018-04-03 12:50:16 keypool added key 99, size=99
+2018-04-03 12:50:17 keypool added key 100, size=100
+2018-04-03 12:50:17 keypool added key 101, size=101
+2018-04-03 12:50:17 keypool reserve 1
+2018-04-03 12:50:17 keypool keep 1
+2018-04-03 12:50:17  wallet                 7254ms
+2018-04-03 12:50:17 setKeyPool.size() = 100
+2018-04-03 12:50:17 mapWallet.size() = 0
+2018-04-03 12:50:17 mapAddressBook.size() = 1
+2018-04-03 12:50:17 UpdateTip: new best=8a9020868abd51cb7d1b91087b39b00f28f9262af739deddda00cd9e1cee35bc height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0tx)
+2018-04-03 12:50:17 mapBlockIndex.size() = 1
+2018-04-03 12:50:17 nBestHeight = 0
+2018-04-03 12:50:17 torcontrol thread start
+2018-04-03 12:50:17 init message: Loading addresses...
+2018-04-03 12:50:17 ERROR: Read: Failed to open file /root/.fun4/regtest/peers.dat
+2018-04-03 12:50:17 Invalid or missing peers.dat; recreating
+2018-04-03 12:50:17 Failed to open mempool file from disk. Continuing anyway.
+2018-04-03 12:50:17 init message: Loading banlist...
+2018-04-03 12:50:17 ERROR: Read: Failed to open file /root/.fun4/regtest/banlist.dat
+2018-04-03 12:50:17 Invalid or missing banlist.dat; recreating
+2018-04-03 12:50:17 init message: Starting network threads...
+2018-04-03 12:50:17 DNS seeding disabled
+2018-04-03 12:50:17 addcon thread start
+2018-04-03 12:50:17 init message: Done loading
+2018-04-03 12:50:17 msghand thread start
+2018-04-03 12:50:17 net thread start
+2018-04-03 12:50:17 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:50:17 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=0
+2018-04-03 12:50:17 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=1
+2018-04-03 12:50:17 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=2
+2018-04-03 12:50:18 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=3
+2018-04-03 12:50:18 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=4
+2018-04-03 12:50:18 receive version message: /Fun4Core:0.14.2/: version 70015, blocks=0, us=[::]:0, peer=5
+2018-04-03 12:51:19 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:52:19 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:53:20 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:54:20 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:55:21 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:56:21 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
+2018-04-03 12:57:22 connect() to 172.18.0.1:19444 failed after select(): Connection refused (111)
